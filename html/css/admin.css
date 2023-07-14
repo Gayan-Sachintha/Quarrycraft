@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #526D82;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(Monitoring.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #F0F8FF;
+  font-size: 20px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 16px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #F0F0F0;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #7f7b7b;
+}
+
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch {
+  font-family: "times new roman";
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #F0F8FF;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: #7f7b7b;
+  border: 2px solid #F0F8FF;
+  margin-top: 13px;
+  color: #F0F8FF;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
+}
+
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #F0F8FF;
+  position: relative;
+}
+
+.content .par {
+  padding-left: 28px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  line-height: 1.2px;
+  line-height: 30px;
+}
+
+.content h1 {
+  font-family: 'Times New Roman';
+  font-size: 45px;
+  padding-left: 28px;
+  margin-top: 6%;
+  letter-spacing: 2px;
+}
+
+.content .btn {
+  width: 160px;
+  height: 40px;
+  background: #7f7b7b;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.content .btn a {
+  text-decoration: none;
+  color: #fff;
+  transition: .4s ease;
+}
+
+.btn:hover {
+  background-color: #d85c0a;
+}
+
+.product-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.product {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #F0F8FF;
+  margin-top: 10px;
+}
+
+.product .btn {
+  margin-top: 15px;
+}
+
+
+.form {
+  width: 280px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+  
+}
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #F0F8FF;
+  font-size: 22px;
+  background-color: #d85c0a;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #7f7b7b;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #F0F8FF;
+  font-family: Arial;
+}
+
+.lbtn {
+  width: 240px;
+  height: 40px;
+  background: #7f7b7b;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #77c2a8;
+  transition: 0.4s ease;
+}
+
+.lbtn:hover {
+  background: #d85c0a;
+  color: #7f7b7b;
+}
+
+.lbtn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.form .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form .link a {
+  text-decoration: none;
+  color: #7f7b7b;
+}
+
+.LW {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+  
